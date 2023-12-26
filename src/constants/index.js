@@ -18,43 +18,43 @@ import {
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Эхлэл",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "Бидний тухай",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  // {
+  //   id: "questions",
+  //   title: "Асуулт",
+  // },
+  // {
+  //   id: "clients",
+  //   title: "Сэтгэгдлүүд",
+  // },
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Чанартай",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Танд хамгийн сайн материалуудаар чанартай хөшиг урлаж өгнө.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% сэтгэл ханамж",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Таны сэтгэлд нийцсэн хөшгийг бид урлаж өгнө.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Хямд",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Танд зах зээл дээр байгаа хямд үнийг санал болгоно.",
   },
 ];
 
@@ -88,108 +88,52 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "жилийн туршлага",
+    value: "4+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "хөшигний захиалга",
+    value: "2000+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "хөшигний сонголт",
+    value: "200+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Загварын хөшиг FB хуудас",
+        link: "https://www.facebook.com/zagvariinhushig",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+        name: "Загварын хөшиг FB групп",
+        link: "https://www.facebook.com/groups/184596880096381",
+      }
     ],
   },
   {
-    title: "Partner",
+    title: "Хамтрагчид",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
+        name: "Технологийн хамтрагч",
+        link: "https://www.facebook.com/E.Itgelt",
+      }
     ],
   },
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
+    {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+    link: "https://www.facebook.com/purevsuren.ulziijargal",
+  }
 ];
 
 export const clients = [

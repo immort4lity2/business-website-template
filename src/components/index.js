@@ -1,5 +1,5 @@
 import Billing from './Billing'
-import Business from './Business'
+import About from './About.jsx'
 import CardDeal from './CardDeal'
 import Clients from './Clients'
 import CTA from './CTA'
@@ -12,7 +12,7 @@ import Testimonials from './Testimonials'
 
 export {
     Billing,
-    Business,
+    About,
     CardDeal,
     Clients,
     CTA,

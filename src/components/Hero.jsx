@@ -1,5 +1,5 @@
 import styles from '../style'
-import { discount, robot } from '../assets'
+import { discount, curtainSewing  } from '../assets'
 import GetStarted from './GetStarted'
 
 const Hero = () => {
@@ -13,32 +13,32 @@ const Hero = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>20%</span> Discount For {" "}
-            <span className='text-white'>1 Month</span> Account
+            <span className='text-white'>4 метр тааран хөшиг, 4 метр тюль ердөө 150,000₮ болж хямдарлаа. Хямдрал </span>  {" "}
+            <span className='text-white'>2024/02/10 хүртэл</span> үргэлжилнэ.
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            The Next <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+            Таны хүссэн <br className='sm:block hidden'/> {" "}
+            <span className='text-gradient'>хэмжээ, загвараар</span> {" "}
           </h1>
-          <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted/>
-          </div>
+          {/*<div className='ss:flex hidden md:mr-4 mr-0'>*/}
+          {/*  <GetStarted/>*/}
+          {/*</div>*/}
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
-          Payment Method.
+          түргэн шуурхай оёж өгнө.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-        We examine annual percentage rates, annual fees.  
+        Бид таны хүсэл сонирхолд нийцүүлэн бүх төрлийн хөшгийг түргэн шуурхай оёж өгнө. Хэрэв та өөрөө ирж авч амжихгүй
+          байвал бид үнэ төлбөргүй хүргэж өгнө.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
-          src={robot}
+          src={curtainSewing}
           alt='billing'
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[100%] h-[85%] relative z-[5]'
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

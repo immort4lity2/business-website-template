@@ -23,18 +23,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 )
 
-const Business = () => {
+const About = () => {
   return (
-    <section id='features' className={layout.section}>
+    <section id='about' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll handle the money.</h2>
+        <h2 className={styles.heading2}>Та захиалгаа өг, <br className='sm:block hidden'/>бид бэлэн болгоод танд хүргэж өгье.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, 
-          you can improve your financial life by building credit,
-          earning rewards and saving money.
-          But with hundreds of credit cards on the market.
+          Та өөрт нийцсэн хөшигний загвар хэмжээгээ өгвөл бид бусад ажлыг хариуцна. Бид түргэн шуурхай оёж бэлэн болгоод
+            танд үнэ төлбөргүй хүргэж өгье.
         </p>
-        <Button styles='mt-10'/>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
@@ -45,4 +42,4 @@ const Business = () => {
   )
 }
 
-export default Business
+export default About
